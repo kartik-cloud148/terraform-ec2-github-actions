@@ -7,7 +7,7 @@ resource "aws_instance" "demo-2" {
     instance_type = "t3.micro"
 
     tags = {
-        NAME= "ec2terraformgithub"
+        Name= "ec2terraformgithub"
     }
   
 }
